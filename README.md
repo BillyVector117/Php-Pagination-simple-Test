@@ -6,3 +6,7 @@ A pagination application using MySQL to store data
 ![Vanilla-PHP-pagination](https://github.com/BillyVector117/Php-Pagination-simple-Test-/blob/main/Screenshot_2.png)
 -> right arrow is Blocked when page = [last-page]
 ![Vanilla-PHP-left-arrow](https://github.com/BillyVector117/Php-Pagination-simple-Test-/blob/main/Screenshot_3.png)
+
+
+
+Thanks FalconMasters!
