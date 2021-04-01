@@ -1,0 +1,69 @@
+/* All elements */
+* {
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body {
+    background: #F2F2F2;
+    font-size: 16px;
+    font-family: "Roboto", Arial, sans-serif, helvetica;
+}
+.container {
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+}
+h1 {
+    margin: 20px 0;
+    text-align: center;
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+    color: #ce7f08;
+    font-weight: normal;
+}
+.container .articles {
+    margin-bottom: 20px;
+}
+.container .articles ul {
+    list-style: none;
+}
+.container .articles ul li{
+    /* background: #fff; */
+    padding: 15px 10px;
+    border-bottom: 1px solid #c8c8c8;
+}
+.pagination ul {
+    list-style: none;
+}
+.pagination ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+.pagination ul .active a {
+    background: #ce7f08;
+}
+.pagination ul .disabled {
+    background: #c8c8c8;
+    display: inline-block;
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+    padding: 15px 25px;
+    cursor: not-allowed;
+    color: #fff;
+    text-decoration: none;
+}
+.pagination ul li a {
+    display: inline-block;
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+    padding: 15px 25px;
+    background: #424242;
+    color: #fff;
+    text-decoration: none;
+}
+.pagination ul li a:hover {
+
+    background: #3299bb;
+ 
+    text-decoration: none;
+}
